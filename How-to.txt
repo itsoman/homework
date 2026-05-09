@@ -1,0 +1,11 @@
+How to install 
+- npm init playwright@latest
+- npm install dotenv && npm install --save-dev @types/dotenv
+
+How to run tests
+- npx playwright test create-a-trip.spec.ts --headed --project=chromium
+or for headless mode:
+- npx playwright test create-a-trip.spec.ts --project=chromium
+
+How to generate HTML report
+- npx playwright show-report
